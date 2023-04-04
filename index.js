@@ -71,7 +71,7 @@ const request = require("request");
 const app = express();
 
 // Create an API route for the video
-app.get("/kaluram", function (req, res) {
+app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 app.get("/video", (req, res) => {
