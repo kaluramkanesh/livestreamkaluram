@@ -88,7 +88,7 @@ app.get("/video", (req, res) => {
 });
 
 // Start the server
-const port = process.env.PORT || 1000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
